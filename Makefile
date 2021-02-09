@@ -10,6 +10,7 @@
 	multipass mount ${PWD}/bcc bcc://bcc
 
 2-prepare:
+	@echo Installing bcc stuff...
 	multipass mount ${PWD}/scripts bcc://scripts
 	multipass exec bcc sh /scripts/prepare.sh
 
