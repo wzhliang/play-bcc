@@ -1,4 +1,4 @@
-.PHONY: 0-vm 1-fetch 2-prepare shell
+.PHONY: 0-vm 1-fetch 2-prepare shell clean
 
 0-vm:
 	@echo Creating VM...
