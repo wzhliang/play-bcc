@@ -20,3 +20,8 @@
 
 shell:
 	multipass shell bcc
+
+clean:
+	multipass stop bcc
+	multipass delete bcc
+	echo Run multipass purge to further cleanup
